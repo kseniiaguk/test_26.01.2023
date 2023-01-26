@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LevelUp</title>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="about">
+        <div class="video-wrapper">
+            <video class="bg-video" playsinline autoplay muted loop poster="imgs/poster.png">
+                <source src="bg-video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="name-container">LevelUp</div>
+            <div class="two-columns container">
+                <div class="left column">
+                    <img class="product-img" src="imgs/prod.png" alt="product image">
+                </div>
+                <div class="right-column">
+                    <ul class="characteristics">
+                        <li>
+                            Sed porta ultrices nibh. Vivamus.
+                        </li>
+                        <li>
+                            Maecenas sit amet dignissim urna
+                        </li>
+                        <li>
+                            Pellentesque nec hendrerit metus, vel
+                        </li>
+                    </ul>
+                    <button id="order-button" class="order-button">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="composition">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="column ing">
+                <div class="ingredient-card">
+                    <img class="ingredient-img" src="imgs/ingredient.png" alt="ingredient 1">
+                    <span class="ingredient-name">ingredient 1</span>
+                </div>
+                <div class="ingredient-card">
+                    <img class="ingredient-img" src="imgs/ingredient.png" alt="ingredient 2">
+                    <span class="ingredient-name">ingredient 2</span>
+                </div>
+                <div class="ingredient-card">
+                    <img class="ingredient-img" src="imgs/ingredient.png" alt="ingredient 3">
+                    <span class="ingredient-name">ingredient 3</span>
+                </div>
+            </div>
+            <div class="column center">
+                <img class="product-img" src="imgs/prod.png" alt="product image">
+                <button id="order-button" class="order-button">Заказать</button>
+            </div>
+            <div class="column ing">
+                <div class="ingredient-card">
+                    <img class="ingredient-img" src="imgs/ingredient.png" alt="ingredient 4">
+                    <span class="ingredient-name">ingredient 4</span>
+                </div>
+                <div class="ingredient-card">
+                    <img class="ingredient-img" src="imgs/ingredient.png" alt="ingredient 5">
+                    <span class="ingredient-name">ingredient 5</span>
+                </div>
+                <div class="ingredient-card">
+                    <img class="ingredient-img" src="imgs/ingredient.png" alt="ingredient 6">
+                    <span class="ingredient-name">ingredient 6</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="overlay"></div>
+        <div class="content">
+            <img class="arrow left" id="left-arr" src="imgs/arrow.png" alt="swipe to left">
+            <div class="carousel" id="carousel">
+                <!-- <div class="review">
+                    <div class="overlay"></div>
+                    <img class="customer-img" src="customer1.jpg" alt="customer image Иван Иванов">
+                    <span class="customer-name">Иван Иванов</span>
+                    <p class="review-text">Nunc tincidunt metus eu erat viverra feugiat. In et leo elit. Etiam tempor
+                        lectus et laoreet sollicitudin. Suspendisse scelerisque dui.</p>
+                </div>
+                <div class="review active">
+                    <div class="overlay"></div>
+                    <img class="customer-img" src="customer2.jpg" alt="customer image Пётр Петров">
+                    <span class="customer-name">Пётр Петров</span>
+                    <p class="review-text">Integer et lacus quis tortor molestie tristique non a dolor. Cras accumsan
+                        faucibus nisl, in ultricies lorem tempor eget. Morbi.</p>
+                </div>
+                <div class="review">
+                    <div class="overlay"></div>
+                    <img class="customer-img" src="customer3.jpg" alt="customer image Васиий Васильев">
+                    <span class="customer-name">Васиий Васильев</span>
+                    <p class="review-text">Nullam tincidunt, nisi in efficitur finibus, velit est elementum augue, non
+                        fermentum ante ipsum gravida nulla. Pellentesque ac lorem leo.</p>
+                </div> -->
+            </div>
+            <img class="arrow right" id="right-arr" src="imgs/arrow.png" alt="swipe to left">
+        </div>
+    </section>
+    <section class="promo">
+        <div class="overlay"></div>
+        <content>
+            <div class="top-container">
+                <div class="promo-img-container">
+                    <img class="promo-img" alt="doctor" src="imgs/doctor.png">
+                </div>
+                <div class="right-container">
+                    <div class="promo-text-container">
+                        <img class="info-icon" alt="info" src="imgs/info.png">
+                        <div class="promo-text">
+                            <p style="margin-top: 0;">
+                                Nulla elementum bibendum neque, et tempus neque suscipit ut. Nam vel dapibus nunc.
+                            </p>
+                            <p>
+                                Donec maximus nisl libero, sit amet feugiat lectus finibus et. Ut dapibus odio in
+                                laoreet fermentum. Duis vehicula, ligula id convallis vulputate, erat nulla luctus
+                                nulla, quis sagittis magna dolor ac lectus.
+                            </p>
+                        </div>
+                    </div>
+                    <button id="order-button" class="order-button">Заказать</button>
+                </div>
+            </div>
+            <div class="bottom-container">
+                <ul class="characteristics">
+                    <li>
+                        Sed porta ultrices nibh. Vivamus.
+                    </li>
+                    <li>
+                        Maecenas sit amet dignissim urna
+                    </li>
+                    <li>
+                        Pellentesque nec hendrerit metus, vel
+                    </li>
+                </ul>
+            </div>
+        </content>
+    </section>
+    <section class="order" id="order">
+        <div class="name-container">
+            LevelUp
+        </div>
+        <div class="timer-price-container">
+            <div class="timer-container" id="timer"></div>
+            <div class="prices">
+                <span class="old-price">$100</span>
+                <span class="new-price">$50</span>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <div class="form-container">
+                <form name="order" class="order-form">
+                    <div class="input-line">
+                        <input id="name" required type="text" placeholder="Имя">
+                        <span id="name-label" class="hidden form-label">Введите фамилию и имя: Иванов Иван</span>
+                    </div>
+                    <div class="input-line">
+                        <input id="tel" required type="tel" pattern="[0-9]{11}" placeholder="Номер телефона">
+                        <span id="tel-label" class="hidden form-label">Введите номер телефона: 88005553535</span>
+                    </div>
+                    <button type="submit" class="order-button">Заказать</button>
+                </form>
+            </div>
+            <div class="img-container">
+                <img class="product-img" alt="product image" src="imgs/prod.png">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
