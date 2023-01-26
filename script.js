@@ -49,7 +49,6 @@ window.onload = () => {
     function swipe(right) {
         const last = String(reviews.length - 1);
         for (let review of document.querySelectorAll("#review")) {
-            console.log(review.style.left);
             if (review.classList.contains('active')) {
                 review.classList.remove('active');
             }
